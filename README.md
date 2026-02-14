@@ -73,3 +73,5 @@ Export findings into a clickable HTML report (top scored URLs, detailed param si
 ## Usage
 ./rec00n.sh example.com
 
+
+<img width="754" height="731" alt="image" src="https://github.com/user-attachments/assets/18da35c1-335a-4d8f-9092-caadc1e2a518" />

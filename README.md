@@ -1,10 +1,12 @@
 # rec00n
 
-**TR:** Pasif recon otomasyonu: subdomain keşfi (subfinder + crt.sh), canlı doğrulama (httpx-toolkit/httpx), Wayback/CDX URL toplama, riskli parametre skorlama ve tıklanabilir HTML rapor. **Exploit yok, brute-force yok.**
+**TR:** 
 
-**EN:** Passive recon automation: subdomain discovery (subfinder + crt.sh), live verification (httpx-toolkit/httpx), Wayback/CDX URL collection, risk-parameter scoring, and a clickable HTML report. **No exploitation, no brute-force.**
+Pasif recon otomasyonu: subdomain keşfi (subfinder + crt.sh), canlı doğrulama (httpx-toolkit/httpx), Wayback/CDX URL toplama, riskli parametre skorlama ve tıklanabilir HTML rapor. **Exploit yok, brute-force yok.**
 
-**TR:** Subdomain keşfi (Subfinder)
+**TR:** 
+
+Subdomain keşfi (Subfinder)
 Hedef domain için subfinder çalıştırılır ve bulunan tüm subdomainler subdomains.txt dosyasına yazılır.
 
 crt.sh ile zenginleştirme + dedupe
@@ -31,7 +33,13 @@ Katman C (anomali): Nadir ama şüpheli prefix/pattern taşıyan parametreler (x
 HTML rapor üretimi (triage)
 Tüm bulgular (top URL’ler, skorlar, parametre detayları, frekans istatistikleri) tıklanabilir bir HTML rapora dökülür. Böylece manuel test için en “öncelikli” URL’ler hızlıca seçilebilir.
 
-**EN** Subdomain discovery (Subfinder)
+**EN:** 
+
+Passive recon automation: subdomain discovery (subfinder + crt.sh), live verification (httpx-toolkit/httpx), Wayback/CDX URL collection, risk-parameter scoring, and a clickable HTML report. **No exploitation, no brute-force.**
+
+**EN** 
+
+Subdomain discovery (Subfinder)
 Run subfinder for the target domain and write all discovered subdomains into subdomains.txt.
 
 crt.sh enrichment + deduplication
